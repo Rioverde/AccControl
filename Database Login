@@ -1,0 +1,16 @@
+CREATE TABLE AllUsers (
+    ID int NOT NULL AUTO_INCREMENT,
+    Username varchar(255) NOT NULL,
+    Password varchar(255),
+    PRIMARY KEY (ID)
+);
+
+CREATE TABLE UsersData (
+    UserID int NOT NULL AUTO_INCREMENT,
+    Accounts varchar(255) NOT NULL,
+    Login varchar(255) NOT NULL,
+    Password varchar(255),
+    PRIMARY KEY (UserID)
+);
+
+
